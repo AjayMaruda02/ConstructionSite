@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navbar1 {
+  background-color: rgba(239, 239, 239, 0.605);
+}
+.navh3:hover {
+  color: orange;
+}
+
+.navh3 a:hover {
+  color: orange !important;
+}
+.heft:hover {
+  background: rgba(0, 0, 0, 0.25);
+  opacity: 1;
+}
+
+.main2 {
+  background-color: rgba(212, 212, 212, 0.897);
+}
+.group:hover.position-absolute {
+  opacity: 1 !important;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  transition: background 0.3s ease;
+  pointer-events: none;
+}
+
+.container1:hover .overlay {
+  background: rgba(0, 0, 0, 0.6); /* slightly darker on hover */
+}
+
+.heft {
+  overflow: hidden;
+  position: relative;
+}
+
+.overlay-foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+  z-index: 1;
+}
+
+.heft:hover .overlay-foreground {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.heft img {
+  position: relative;
+  z-index: 0;
+}
+
+.heft .position-absolute {
+  z-index: 2;
+}
+
+span,
+i:hover {
+  color: orange !important;
+}
+.navli:hover {
+  color: orange;
+}
+.group:hover .overlay-text {
+  opacity: 1 !important;
+}
+@media (max-width: 767.98px) {
+  .heft img {
+    height: 180px !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .heft img {
+    height: 140px !important;
+  }
+  .overlay-text h4 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 760px) {
+  .container-fluid .nav .nav-link i {
+    font-size: 1.5rem !important;
+  }
+  .container-fluid h1,
+  .container-fluid .h2 {
+    font-size: 1.25rem !important;
+  }
+}
+@media (max-width: 570px) {
+  .container-fluid .nav .nav-link i {
+    font-size: 1.2rem !important;
+  }
+  .container-fluid .img-fluid {
+    max-width: 100% !important;
+    max-height: 180px !important;
+  }
+}
