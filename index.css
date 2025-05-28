@@ -8,11 +8,11 @@
   background-color: rgba(239, 239, 239, 0.605);
 }
 .navh3:hover {
-  color: orange;
+  color: rgb(255, 94, 1);
 }
 
 .navh3 a:hover {
-  color: orange !important;
+  color: rgb(255, 94, 1) !important;
 }
 .heft:hover {
   background: rgba(0, 0, 0, 0.25);
@@ -22,8 +22,41 @@
   text-shadow: 2px 2px 2px black;
 }
 
+#main-btn:hover{
+  background-color: rgb(255, 94, 1);
+  border: rgb(255, 94, 1);
+  color: white
+}
+
+a:hover{
+  
+  color: rgb(255, 94, 1) !important;
+}
+.tabTxt{
+  font-size: 20px;
+  font-weight: 700;
+}
+.tabTxt2{
+  font-size: 12px;
+}
+.frstUl{
+  font-weight: 600;
+  border-bottom: 3px solid gray !important;
+}
+.frstUl:hover{
+  border-bottom: 3px solid orange !important;
+}
+.img-fluid{
+  max-width: 450px; 
+  max-height: 450px; 
+  object-fit: cover;
+}
+.img-fluid2{
+  width: 500px;
+  height: 320x ;
+}
 .main2 {
-  background-color: rgba(212, 212, 212, 0.897);
+  background-color: rgba(234, 234, 234, 0.897);
 }
 .group:hover.position-absolute {
   opacity: 1 !important;
@@ -71,6 +104,11 @@
 .heft .position-absolute {
   z-index: 2;
 }
+.bttn2:hover{
+   background-color: rgb(255, 94, 1) !important;
+  border: rgb(255, 94, 1) !important;
+  color: white !important;
+}
 
 span,
 i:hover {
@@ -112,4 +150,9 @@ i:hover {
     max-width: 100% !important;
     max-height: 180px !important;
   }
+}
+
+.tgBtn:hover{
+  background-color: rgb(255, 94, 1) !important;
+  color: white !important ;
 }
